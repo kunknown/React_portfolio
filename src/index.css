@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* icon prefix default color */
+.input-field .prefix {
+  color: grey;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #212121;
+}
+/*active input field focus label-color */
+.input-field label.active {
+  color: #212121 !important;
+}
+/* label underline focus color */
+.input-field input:focus {
+  border-bottom: 1px solid #212121 !important;
+  box-shadow: 0 1px 0 0 #212121 !important;
+}
